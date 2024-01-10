@@ -1,0 +1,1 @@
+besu --data-path=data --genesis-file=../cliqueGenesis.json --network-id 1337 --p2p-port=30303 --rpc-http-enabled --rpc-http-api=ETH,NET,CLIQUE --host-allowlist="*" --rpc-http-cors-origins="all"  --rpc-http-host 10.20.30.7 

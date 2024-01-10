@@ -1,0 +1,1 @@
+besu --data-path=data --genesis-file=../cliqueGenesis.json --bootnodes=enode://a4f92803f2eb5b524f3356e5894da0d9bf75d48d6afcadc63744106c43ccf4216119aaf9327ee3ab6c2a4ea341d50017b15664264b9957613c928712b56ff1fa@127.0.0.1:30303 --network-id 1337 --p2p-port=30305 --rpc-http-enabled --rpc-http-api=ETH,NET,CLIQUE --host-allowlist="*" --rpc-http-cors-origins="all" --rpc-http-port=8547
